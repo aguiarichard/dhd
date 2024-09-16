@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>HDD System</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="img-logo" src="../imgs/Logo-UNI-La-Salle.png" alt="Logo Unilasalle">
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="div-form">
+                <form>
+                    <input name="name" autocomplete="off" required id="input-search"/>
+                    <label for="name">
+                        <span >Nome</span>
+                    </label>
+                </form>
+                <div class="custom-select-container">
+                    <div class="custom-select-trigger" id="custom-select-trigger">
+                        <span id="name-selected" class="no-select">Escolher Aluno</span>
+                    </div>
+                    <ul class="custom-options" id="custom-options-nome"></ul>
+                </div>
+
+                <div class="custom-select-container">
+                    <div class="custom-select-trigger" id="custom-select-trigger-dip-his">
+                        <span id="name-selected" class="no-select">Diploma/Histórico</span>
+                    </div>
+                    <ul class="custom-options" id="custom-options-dip-his">
+                        <li class="li-dip-his">Diploma</li>
+                        <li class="li-dip-his">Histórico</li>
+                    </ul>
+                </div>
+                
+
+                <div class="custom-select-container">
+                    <div class="custom-select-trigger" id="custom-select-trigger-situacao">
+                        <span id="name-selected" class="no-select">Escolher Situação</span>
+                    </div>
+                    <ul class="custom-options" id="custom-options-situacao">
+                        <li class="li-situacao">Pronto para acervo</li>
+                        <li class="li-situacao">Finalizar</li>
+                    </ul>
+                </div>
+
+
+                <button id="finalizar-historico">Enviar</button>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Sociedade Porvir Científico (Universidade La Salle) | CNPJ 92.741.990/0040-43</p>
+        <p class="copy">© Província La Salle Brasil-Chile </p>
+    </footer>
+
+</body>
+
+<script src="../js/home.js"></script>
+
+</html>
